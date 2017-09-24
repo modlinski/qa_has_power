@@ -1,0 +1,139 @@
+1. Test-driven development
+
+TDD is an agile software development process that relies on the repetition of a very short development cycle.
+Requirements are turned into very specific test cases, then the software is improved to pass the new tests, only. This
+is opposed to software development that allows software to be added that is not proven to meet requirements. Test-driven
+development is related to the test-first programming concepts of extreme programming, begun in 1999, but more recently
+has created more general interest in its own right. Programmers also apply the concept to improving and debugging legacy
+code developed with older techniques. Test-driven development cycle:
+
+1. Add a test
+2. Run all tests and see if the new test fails
+3. Write the code
+4. Run tests
+5. Refactor code
+Repeat
+
+
+2. Behavior-driven development
+
+BDD is an agile software development process that originally emerged from the TDD. BDD uses examples to illustrate the
+behavior of the system that are written in a readable and understandable language for everyone involved in the
+development. BDD focuses on providing a shared process and shared tools promoting communication among software
+developers and business analysts to collaborate on software development, with the aim of delivering products with
+business value. Behavior Driven Development focuses on:
+
+- Providing a shared process and shared tools promoting communication to the software developers, business analysts and
+stakeholders to collaborate on software development, with the aim of delivering product with business value.
+- What a system should do and not on how it should be implemented.
+- Providing better readability and visibility.
+- Verifying not only the working of the software but also that it meets the customer’s expectations.
+
+The two main practices of BDD are:
+
+- Specification by Example (SbE) - uses examples in conversations to illustrate the business rules and the behavior of
+the software to be built. Specification by Example enables the product owners, business analysts, testers and the
+developers to eliminate common misunderstandings about the business requirements.
+- Test Driven Development (TDD), in the context of BDD, turns examples into human readable, executable specifications.
+The developers use these specifications as a guide to implement increments of new functionality. This, results in a lean
+codebase and a suite of automated regression tests that keep the maintenance costs low throughout the lifetime of the
+software. BDD aligns itself to the Agile manifesto as follows.
+
+Agile Manifesto:
+
+- Individuals and interactions over processes and tools.
+- Working software over comprehensive documentation.
+- Customer collaboration over contract negotiation.
+- Responding to change over following a plan.
+
+BDD Alignment:
+
+- BDD is about having conversations.
+- BDD focuses on making it easy to create software that is of business value.
+- BDD focuses on scenarios based on ideas with continuous communication with the customer as the development progresses.
+It is not based on any promises.
+- BDD focuses on continuous communication and collaboration that facilitates absorption of changes.
+
+
+3. Gherkin
+
+Gherkin is a language, which is used to write Features, Scenarios, and Steps. The purpose of Gherkin is to help us write
+concrete requirements. Gherkin files are plain text Files and have the extension .feature. Each line that is not blank
+has to start with a Gherkin keyword, followed by any text you like. The keywords are:
+
+- Feature
+- Scenario
+- Given, When, Then, And, But (Steps)
+- Background
+- Scenario Outline
+- Examples
+- """ (Doc Strings)
+- | (Data Tables)
+- @ (Tags)
+- # (Comments)
+- *
+
+The Feature keyword is used to describe a software feature, and to group the related scenarios. A Feature has three
+basic elements:
+
+- The keyword – Feature.
+- The name of the feature, provided on the same line as the Feature keyword.
+- An optional (but highly recommended) description that can span multiple lines i.e. all the text between the line
+containing the keyword Feature, and a line that starts with Scenario, Background, or Scenario Outline.
+
+In addition to a name and a description, Features contain a list of scenarios or scenario outlines, and an optional
+background. It is conventional to name a .feature file by taking the name of the Feature, converting it to lowercase and
+replacing the spaces with underlines.
+
+Descriptions - some parts of Gherkin documents do not have to start with a keyword. In the lines following a Feature,
+scenario, scenario outline or examples, you can write anything you like, as long as no line starts with a keyword. This
+is the way to include Descriptions.
+
+The Scenario keyword is used to to express the behavior of your system, you attach one or more scenarios with each
+Feature. It is typical to see 5 to 20 scenarios per Feature to completely specify all the behaviors around that Feature.
+Scenarios follows the following pattern:
+
+- Given − describe an initial context.
+- When − describe an event.
+- Then − describe an expected outcome.
+
+Remember: ‘each scenario must make sense and be able to be executed independently of any other scenario’
+Scenarios provide the following benefits:
+
+- Tests will be simpler and easier to understand.
+- You can run just a subset of your scenarios and you do not have to worry about the breaking of your test set.
+- Depending on your system, you might be able to run the tests in parallel, reducing the amount of time taken to execute
+all of your tests.
+
+
+4. Selenium
+
+Selenium is a suite of tools to automate web browsers across many platforms. What is it used for:
+
+- Primarily, it is for automating web applications for testing purposes, but is certainly not limited to just that.
+- Boring web-based administration tasks can (and should!) be automated as well.
+
+Selenium has the support of some of the largest browser vendors who have taken (or are taking) steps to make Selenium a
+native part of their browser. It is also the core technology in countless other browser automation tools, APIs and
+frameworks. You can choose:
+
+- Selenium WebDriver - if you want to create robust, browser-based regression automation suites and tests or scale and
+distribute scripts across many environments. Selenium WebDriver is a collection of language specific bindings to drive a
+browser - the way it is meant to be driven. Selenium WebDriver is the successor of Selenium Remote Control which has
+been officially deprecated. The Selenium Server (used by both WebDriver and Remote Control) now also includes built-in
+grid capabilities.
+
+- Selenium IDE - if you want to create quick bug reproduction scripts or create scripts to aid in automation-aided
+exploratory testing. Selenium IDE is a Firefox add-on that will do simple record-and-playback of interactions with the
+browser.
+
+
+5. Behave
+
+Behave uses tests written in a natural language style, backed up by Python code. To run test cases use command:
+
+(my_env) modlinski@modlinski-GL72-6QC:~/PycharmProjects/qa_has_power/examples/registration$ behave
+
+(my_env) means that virtual env was activated before by command:
+
+modlinski@modlinski-GL72-6QC:~$ source my_env/bin/activate
