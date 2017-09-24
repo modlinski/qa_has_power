@@ -11,7 +11,7 @@ class MyPatientsTestCase(unittest.TestCase):
     """
     
     def setUp(self):
-        self.browser = webdriver.Chrome()
+        self.browser = webdriver.Firefox()
         self.browser.get("http://diabcontrol1.herokuapp.com")
 
     def tearDown(self):

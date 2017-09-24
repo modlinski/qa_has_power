@@ -12,7 +12,7 @@ class SideMenuTestCase(unittest.TestCase):
     """
     
     def setUp(self):
-        self.browser = Browser('chrome')
+        self.browser = Browser('firefox')
         self.browser.visit("http://diabcontrol1.herokuapp.com")
 
     def tearDown(self):
