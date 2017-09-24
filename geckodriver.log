@@ -1,0 +1,110 @@
+1506258726818	geckodriver	INFO	geckodriver 0.18.0
+1506258726845	geckodriver	INFO	Listening on 127.0.0.1:60131
+1506258728028	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1506258728628	Marionette	INFO	Enabled via --marionette
+1506258730010	Marionette	INFO	Listening on port 36143
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1506258730116	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506258730155	Marionette	DEBUG	loaded listener.js
+1506258730175	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506258730714	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506258730714	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506258731296	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stxnext.com/job-offers/test-automation-specialist-wroclaw/"
+1506258731338	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stxnext.com/job-offers/test-automation-specialist-wroclaw/"
+1506258731344	Marionette	DEBUG	Received DOM event "pageshow" for "https://stxnext.com/job-offers/test-automation-specialist-wroclaw/"
+1506258731396	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1506258731634	Marionette	DEBUG	Received DOM event "pageshow" for "https://stxnext.com/job-offers/test-automation-specialist-wroclaw/"
+1506258731646	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483659"
+1506258731650	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://vars.hotjar.com/rcj-99d43ead6bdf30da8ed5ffcb4f17100c.html"
+1506258731665	Marionette	DEBUG	Received DOM event "pageshow" for "https://vars.hotjar.com/rcj-99d43ead6bdf30da8ed5ffcb4f17100c.html"
+1506258731759	Marionette	DEBUG	Received DOM event "pageshow" for "https://stxnext.com/job-offers/test-automation-specialist-wroclaw/"
+1506258731874	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://staticxx.facebook.com/connect/xd_arbiter/r/5oivrH7Newv.js?version=42#channel=f19a788eccb228&origin=https%3A%2F%2Fstxnext.com"
+1506258731875	Marionette	DEBUG	Received DOM event "pageshow" for "https://staticxx.facebook.com/connect/xd_arbiter/r/5oivrH7Newv.js?version=42#channel=f19a788eccb228&origin=https%3A%2F%2Fstxnext.com"
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1506258732447	Marionette	DEBUG	Received DOM event "pageshow" for "https://stxnext.com/job-offers/test-automation-specialist-wroclaw/"
+1506258732560	geckodriver	INFO	geckodriver 0.18.0
+1506258732563	geckodriver	INFO	Listening on 127.0.0.1:58819
+JavaScript error: https://stxnext.com/plugins/enlighter/resources/mootools-core-yc.js, line 2: TypeError: t is not a function
+1506258733688	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1506258734221	Marionette	INFO	Enabled via --marionette
+1506258735499	Marionette	INFO	Listening on port 42759
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1506258735619	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506258735672	Marionette	DEBUG	loaded listener.js
+1506258735691	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506258736056	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506258736057	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506258736599	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stxnext.com/job-offers/test-automation-specialist-wroclaw/"
+1506258736660	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stxnext.com/job-offers/test-automation-specialist-wroclaw/"
+1506258736665	Marionette	DEBUG	Received DOM event "pageshow" for "https://stxnext.com/job-offers/test-automation-specialist-wroclaw/"
+1506258736749	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1506258736947	Marionette	DEBUG	Received DOM event "pageshow" for "https://stxnext.com/job-offers/test-automation-specialist-wroclaw/"
+1506258736960	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483659"
+1506258737118	Marionette	DEBUG	Received DOM event "pageshow" for "https://stxnext.com/job-offers/test-automation-specialist-wroclaw/"
+1506258737135	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://vars.hotjar.com/rcj-99d43ead6bdf30da8ed5ffcb4f17100c.html"
+1506258737137	Marionette	DEBUG	Received DOM event "pageshow" for "https://vars.hotjar.com/rcj-99d43ead6bdf30da8ed5ffcb4f17100c.html"
+1506258737234	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://staticxx.facebook.com/connect/xd_arbiter/r/5oivrH7Newv.js?version=42#channel=f3043dd45e29eaa&origin=https%3A%2F%2Fstxnext.com"
+1506258737235	Marionette	DEBUG	Received DOM event "pageshow" for "https://staticxx.facebook.com/connect/xd_arbiter/r/5oivrH7Newv.js?version=42#channel=f3043dd45e29eaa&origin=https%3A%2F%2Fstxnext.com"
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1506258737694	Marionette	DEBUG	Received DOM event "pageshow" for "https://stxnext.com/job-offers/test-automation-specialist-wroclaw/"
+1506258737801	geckodriver	INFO	geckodriver 0.18.0
+1506258737803	geckodriver	INFO	Listening on 127.0.0.1:50043
+JavaScript error: https://stxnext.com/plugins/enlighter/resources/mootools-core-yc.js, line 2: TypeError: t is not a function
+1506258738931	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1506258739451	Marionette	INFO	Enabled via --marionette
+1506258740611	Marionette	INFO	Listening on port 46255
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1506258740702	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506258740738	Marionette	DEBUG	loaded listener.js
+1506258740756	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506258741066	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506258741067	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506258741596	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stxnext.com/job-offers/test-automation-specialist-wroclaw/"
+1506258741621	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stxnext.com/job-offers/test-automation-specialist-wroclaw/"
+1506258741625	Marionette	DEBUG	Received DOM event "pageshow" for "https://stxnext.com/job-offers/test-automation-specialist-wroclaw/"
+1506258741716	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1506258742034	Marionette	DEBUG	Received DOM event "pageshow" for "https://stxnext.com/job-offers/test-automation-specialist-wroclaw/"
+1506258742101	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483659"
+1506258742122	Marionette	DEBUG	Received DOM event "pageshow" for "https://stxnext.com/job-offers/test-automation-specialist-wroclaw/"
+1506258742135	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://vars.hotjar.com/rcj-99d43ead6bdf30da8ed5ffcb4f17100c.html"
+1506258742137	Marionette	DEBUG	Received DOM event "pageshow" for "https://vars.hotjar.com/rcj-99d43ead6bdf30da8ed5ffcb4f17100c.html"
+1506258742251	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://staticxx.facebook.com/connect/xd_arbiter/r/5oivrH7Newv.js?version=42#channel=f2fe41ff4b7f272&origin=https%3A%2F%2Fstxnext.com"
+1506258742252	Marionette	DEBUG	Received DOM event "pageshow" for "https://staticxx.facebook.com/connect/xd_arbiter/r/5oivrH7Newv.js?version=42#channel=f2fe41ff4b7f272&origin=https%3A%2F%2Fstxnext.com"
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1506258742675	Marionette	DEBUG	Received DOM event "pageshow" for "https://stxnext.com/job-offers/test-automation-specialist-wroclaw/"
+JavaScript error: https://stxnext.com/plugins/enlighter/resources/mootools-core-yc.js, line 2: TypeError: t is not a function
+1506259100356	geckodriver	INFO	geckodriver 0.18.0
+1506259100359	geckodriver	INFO	Listening on 127.0.0.1:45735
+1506259101465	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1506259101953	Marionette	INFO	Enabled via --marionette
+1506259103088	Marionette	INFO	Listening on port 46471
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1506259103192	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506259103230	Marionette	DEBUG	loaded listener.js
+1506259103250	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506259103580	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506259103580	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506259104110	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stxnext.com/"
+1506259104215	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stxnext.com/"
+1506259104218	Marionette	DEBUG	Received DOM event "pageshow" for "https://stxnext.com/"
+1506259104317	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1506259104418	Marionette	DEBUG	Received DOM event "pageshow" for "https://stxnext.com/"
+1506259104422	Marionette	DEBUG	Received DOM event "pageshow" for "https://stxnext.com/"
+1506259104430	Marionette	DEBUG	Received DOM event "pageshow" for "https://stxnext.com/"
+1506259104441	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stxnext.com/"
+1506259104443	Marionette	DEBUG	Received DOM event "pageshow" for "https://stxnext.com/"
+1506259104443	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stxnext.com/"
+1506259104444	Marionette	DEBUG	Received DOM event "pageshow" for "https://stxnext.com/"
+1506259104454	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483661"
+1506259104455	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stxnext.com/"
+1506259104575	Marionette	DEBUG	Received DOM event "pageshow" for "https://stxnext.com/"
+1506259104607	Marionette	DEBUG	Received DOM event "pageshow" for "https://stxnext.com/"
+1506259104673	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483670"
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1506259104830	Marionette	DEBUG	Received DOM event "pageshow" for "https://stxnext.com/"
+1506259104986	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://staticxx.facebook.com/connect/xd_arbiter/r/5oivrH7Newv.js?version=42#channel=f2bd5d62592b66&origin=https%3A%2F%2Fstxnext.com"
+1506259104988	Marionette	DEBUG	Received DOM event "pageshow" for "https://staticxx.facebook.com/connect/xd_arbiter/r/5oivrH7Newv.js?version=42#channel=f2bd5d62592b66&origin=https%3A%2F%2Fstxnext.com"
+1506259104989	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://vars.hotjar.com/rcj-99d43ead6bdf30da8ed5ffcb4f17100c.html"
+1506259104990	Marionette	DEBUG	Received DOM event "pageshow" for "https://vars.hotjar.com/rcj-99d43ead6bdf30da8ed5ffcb4f17100c.html"
+1506259105176	Marionette	DEBUG	Received DOM event "pageshow" for "https://stxnext.com/"
+JavaScript error: https://stxnext.com/plugins/enlighter/resources/mootools-core-yc.js, line 2: TypeError: t is not a function
